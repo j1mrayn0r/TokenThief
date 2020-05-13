@@ -8,7 +8,7 @@ The tool is required SeDebugPrivilege to be executed, therefore an elevated prom
  
  .\TokenThief.exe <PID of the targer process>
  
-The tool is executing a "C:\temp\shell.exe" reverse shell by default. The "command" can be changed in the source code to execute any other binary file. 
+The tool is executing a "C:\temp\shell.exe" reverse shell by default. The "command" variable (Line 8) can be changed in the source code to execute any other binary file on disk. 
  
  
  ## Example
